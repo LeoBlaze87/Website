@@ -13,8 +13,7 @@ const personalInfo = {
     hobbies: {
      'programming':'gaming','spending time with my family':
     }
-}
-
+  }
 function deepIterator(target) {
     if (Array.isArray(target)) {
       for (const element of target) {
